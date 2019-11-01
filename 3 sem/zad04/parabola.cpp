@@ -1,10 +1,8 @@
-parabola.cpp
-
 #include "parabola.hpp"
 #include <iostream>
 #include <math.h>
 
-using namespace std
+using namespace std;
 
 
 void Parabola::policz_parametry()
@@ -15,7 +13,7 @@ void Parabola::policz_parametry()
 	C = 2;
 
 }
-Parabola::Parabola(Point &p1, Point &p2, Point &p3)
+Parabola::Parabola(Point p1, Point p2, Point p3)
 {
 	policz_parametry();
 	counter++;
