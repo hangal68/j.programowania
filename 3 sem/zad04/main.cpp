@@ -44,4 +44,5 @@ int main()
 /*
 	mimo przyjazni funkca policz_y nie dziala
 	w klasie parabola trzeba dodac funkcje float get_A(), float get_B() itd ktore beda zwracały wartosc wspolczynnikow A B C, i ich uzyjemy jako wartosc do p4->policz_y();
+	linijka 31 bez komentarza nie dziala, mozna to rozwazac w wyzje wymioniony sposob
 */
