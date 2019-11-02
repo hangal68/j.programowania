@@ -6,8 +6,9 @@ class Parabola{
 	
 	float A, B, C;
 	static int counter;
-	friend class Point;
 public:
+	friend class Point;
+	friend class Prosta;
 	void policz_parametry();
 	Parabola(Point p1, Point p2, Point p3);
 	~Parabola(){ counter --;}

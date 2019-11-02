@@ -9,8 +9,9 @@ class Point {
 	
 	float x,y;
 	static int counter;
-	friend class Parabola;
 public:
+	friend class Parabola;
+	friend class Prosta;
 	Point(float ax = 0, float ay = 0);
 	~Point(){ counter --; }
 	void info();
